@@ -1,768 +1,125 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MoveMe Rental Cars</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Relief Management</title>
+    <link rel="stylesheet" href="css/style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-
 <body>
-
-<header>
-  <img src="images/logo1 (1).png" alt="Logo" class="corner-logo left-corner">
-  <h1>MoveMe Rental Cars</h1>
-  <div class="header-contact">
-    <p>Call: 03188200250</p>
-    <p>Email: m.umairbsse@gmail.com</p>
-  </div>
-</header>
-
-<nav>
-  <a href="#home">Home</a>
-  <a href="#categories">Categories</a>
-  <a href="#testimonials">Testimonials</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact</a>
-  <a href="booking.html">Booking</a>
-  <a href="login.html">Login</a>
-</nav>
-
-<h1 >Drive Your Journey With MoveMe — Fast, Easy & Affordable Car Rentals</h1>
-
-<section id="home" class="hero-section">
- 
-  <div class="container">
-    <p class="hero-subtext fade-in">Whether it’s a city trip, family tour, business meeting, or airport pickup — MoveMe gives you reliable cars at the best prices. No stress. No delays. Just drive.</p>
-
-    <div class="why-choose slide-up">
-      <h2>Why Choose MoveMe?</h2>
-      <div class="highlights">
-        <div class="highlight">
-          <span class="icon">🚘</span>
-          <h3>Well-Maintained Cars</h3>
-          <p>Every car is fully serviced, clean, and ready to go — giving you a smooth and safe ride.</p>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <h1>Disaster Relief Management</h1>
+            <nav>
+                <a href="index.php">Home</a>
+                <a href="about.php">About Us</a>
+                <a href="contact.php">Contact Us</a>
+                <a href="login.php">Login</a>
+            
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
         </div>
-        <div class="highlight">
-          <span class="icon">⚡</span>
-          <h3>Fast & Easy Booking</h3>
-          <p>Book your car in just 3 clicks. No long forms, no hidden steps.</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" data-aos="fade-up">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <h2>Helping Communities in Times of Need</h2>
+            <p>Request relief, donate, or volunteer to make a difference in disaster-affected areas.</p>
+                <a href="register.php" class="btn">Get Started</a>
+            <a href="#disasters" class="btn btn-secondary">Learn More</a>
         </div>
-        <div class="highlight">
-          <span class="icon">💸</span>
-          <h3>Affordable Rates</h3>
-          <p>Transparent pricing with no hidden charges. Pay only for what you drive.</p>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="introduction" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+            <h2>About Disaster Relief Management</h2>
+            <p>
+                Our Disaster Relief Management System connects volunteers, donors, and affected communities efficiently.
+                We aim to provide quick assistance during natural calamities like floods, earthquakes, and other emergencies.
+                Join us in making a positive impact and saving lives.
+            </p>
         </div>
-        <div class="highlight">
-          <span class="icon">📍</span>
-          <h3>Pick & Drop Anywhere</h3>
-          <p>Home, office, airport, hotel — we deliver the car to your location.</p>
+    </section>
+
+    <!-- Disaster Section -->
+    <section class="disasters" id="disasters" data-aos="fade-up" data-aos-delay="300">
+        <div class="container">
+       NaN btn-secondary">Donate</a>
         </div>
-        <div class="highlight">
-          <span class="icon">🛡️</span>
-          <h3>Trusted & Secure</h3>
-          <p>Verified drivers (if required), secure payments, and a reliable service you can trust.</p>
-        </div>
-      </div>
-    </div>
+    </section>
 
-    <div class="how-it-works">
-      <h2>How It Works</h2>
-      <div class="steps">
-        <div class="step">
-          <span class="step-number">1</span>
-          <h3>Choose Your Car</h3>
-          <p>Browse from economy, standard, and luxury vehicles.</p>
-        </div>
-        <div class="step">
-          <span class="step-number">2</span>
-          <h3>Book Online</h3>
-          <p>Select dates, add your details, and confirm instantly.</p>
-        </div>
-        <div class="step">
-          <span class="step-number">3</span>
-          <h3>Drive & Enjoy</h3>
-          <p>Pick up the car or get doorstep delivery.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Modern Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-main">
+                <!-- About -->
+                <div class="footer-box">
+                    <h3>About Us</h3>
+                    <p>We connect volunteers, donors, and communities to provide quick and effective disaster relief. Together, we make a difference.</p>
+                </div>
 
-<div id="categories" class="container">
+                <!-- Quick Links -->
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="#disasters">Recent Disasters</a></li>
+                        <li><a href="login.php">Login</a></li>
+                        <li><a href="register.php">Register</a></li>
+                        <li><a href="#how-to-help">How You Can Help</a></li>
+                    </ul>
+                </div>
 
-  <!-- Filter UI -->
-  <div class="filter-section">
-    <div class="filter-buttons">
-      <button class="filter-btn active" data-filter="all">All Cars</button>
-      <button class="filter-btn" data-filter="economy">Economy</button>
-      <button class="filter-btn" data-filter="standard">Standard</button>
-      <button class="filter-btn" data-filter="luxury">Luxury / SUV</button>
-    </div>
-  </div>
+                <!-- Contact -->
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> info@disasterrelief.com</p>
+                    <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Relief Street, City, Pakistan</p>
+                </div>
 
-  <!-- Economy Cars Section -->
-  <section class="category-section economy-section" data-category="economy">
-    <div class="section-header economy-header">
-      <h2>Economy Cars</h2>
-      <p class="section-tagline">Economy cars are designed for affordable and efficient travel. They are ideal for daily commuting, city driving, and short trips, offering good fuel efficiency and easy handling. These cars are perfect for customers who want a reliable ride at a budget-friendly price.</p>
-    </div>
-    <div class="car-grid category-grid zoom-in">
-<div class="car-tile economy-tile">
-        <img src="images/economy.jpg" alt="Economy">
-        <div class="tile-details">
-          <span class="category-badge">Economy</span>
-          <h3>Economy Cars</h3>
-          <p class="tile-desc">Affordable, fuel-efficient cars for daily and city travel.</p>
-          <div class="price">From PKR 3,000/day</div>
-          <button onclick="location.href='economy.html'">Book Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
+                <!-- Social Media -->
+                <div class="footer-box">
+                    <h3>Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
 
-  <!-- Standard Cars Section -->
-  <section class="category-section standard-section" data-category="standard">
-    <div class="section-header standard-header">
-      <h2>Standard Cars</h2>
-      <p class="section-tagline">Standard cars offer a perfect balance of comfort, space, and affordability. They are well-suited for families, business trips, and long-distance travel, providing a smooth driving experience with added comfort compared to economy cars.</p>
-    </div>
-    <div class="car-grid category-grid zoom-in">
-<div class="car-tile standard-tile" onclick="location.href='standard.html'">
-        <img src="images/standard.jpg" alt="Standard">
-        <div class="tile-details">
-          <span class="category-badge">Standard / Family</span>
-          <h3>Standard Cars</h3>
-          <p class="tile-desc">Comfortable and reliable vehicles for families and long drives.</p>
-          <div class="price">From PKR 5,000/day</div>
-          <button onclick="location.href='standard.html'">Book Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Luxury Cars Section -->
-  <section class="category-section luxury-section" data-category="luxury">
-    <div class="section-header luxury-header">
-      <h2>Luxury & SUV Cars</h2>
-      <p class="section-tagline">Luxury and SUV cars provide a premium driving experience with advanced features, powerful performance, and superior comfort. These vehicles are ideal for special occasions, long journeys, and customers who prefer style, space, and high-end quality in their ride.</p>
-    </div>
-    <div class="car-grid category-grid zoom-in">
-<div class="car-tile luxury-tile" onclick="location.href='luxury.html'">
-        <img src="images/luxury.jpg" alt="Luxury">
-        <div class="tile-details">
-          <span class="category-badge premium">Luxury / SUV</span>
-          <span class="special-badge">Premium</span>
-          <h3>Luxury Cars</h3>
-          <p class="tile-desc">Premium comfort and powerful performance.</p>
-          <div class="price">From PKR 8,000/day</div>
-          <div class="rating">★★★★★</div>
-          <button onclick="location.href='luxury.html'">Book Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</div>
-
-<section id="testimonials" class="customer-trust">
-  <div class="container">
-    <h2>What Our Customers Say</h2>
-    <div class="testimonials fade-in">
-      <div class="testimonial">
-        <p>“Fast service, clean cars, and very reasonable prices. MoveMe is my go-to car rental!”</p>
-        <cite>— Ali R.</cite>
-      </div>
-      <div class="testimonial">
-        <p>“Booked a luxury car for my event, everything was perfect.”</p>
-        <cite>— Sana K.</cite>
-      </div>
-    </div>
-
-    <div class="comment-section">
-      <h3>Customer Comments</h3>
-      <div id="commentsContainer">
-        <div id="commentsList"></div>
-      </div>
-      <h3>Leave a Comment</h3>
-      <form id="commentForm">
-        <input type="text" id="commentName" placeholder="Your Name" required>
-        <textarea id="commentText" placeholder="Your Comment" required></textarea>
-        <button type="submit" class="book-btn">Submit Comment</button>
-      </form>
-    </div>
-
-
-  </div>
-</section>
-
-<section class="location">
-  <div class="container">
-    <h2>Our Location</h2>
-    <div class="map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.5!2d73.0479!3d33.6844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf4b1b1b1b1b%3A0x1b1b1b1b1b1b1b1b!2sIslamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1234567890!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</section>
-
-<section class="faq">
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-list">
-      <div class="faq-item">
-        <h3>What documents do I need to rent a car?</h3>
-        <p>You need a valid driver's license, national ID card, and proof of address. International customers may need a passport and visa.</p>
-      </div>
-      <div class="faq-item">
-        <h3>Are there any age restrictions for renting a car?</h3>
-        <p>Drivers must be at least 21 years old. Additional fees may apply for drivers under 25.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What is included in the rental price?</h3>
-        <p>The rental price includes the car, basic insurance, and unlimited mileage. Fuel, additional drivers, and GPS are extra.</p>
-      </div>
-      <div class="faq-item">
-        <h3>Can I cancel or modify my booking?</h3>
-        <p>Yes, you can cancel or modify your booking up to 24 hours before pickup for a full refund. Changes may incur fees.</p>
-      </div>
-      <div class="faq-item">
-        <h3>Do you offer one-way rentals?</h3>
-        <p>Yes, one-way rentals are available between major cities in Pakistan with an additional drop-off fee.</p>
-      </div>
-      <div class="faq-item">
-        <h3>What if the car breaks down?</h3>
-        <p>We provide 24/7 roadside assistance. Contact our support team immediately, and we'll arrange a replacement vehicle.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="contact-footer">
-    <div class="footer-content">
-        
-        <div class="footer-column about">
-            <h3>MoveMe Rentals</h3>
-            <p>We offer quality rent car Pakistan service at the most economical rates. We guarantee 100% customer satisfaction.</p>
-            <p>You can use our cars to visit holiday destinations in addition to commuting from one place to another.</p>
-            <div class="social-links">
-                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Disaster Relief Management System. All rights reserved.</p>
             </div>
         </div>
+    </footer>
 
-        <div class="footer-column contact-info">
-            <h3>Contact Us</h3>
-            <p><strong>Support:</strong></p>
-            <p>24/7 Call Support, 24/7 Online Booking, Premium Chat Support.</p>
-            <p style="font-weight: bold;">Free Airport Pick Up & Drop Off Service</p>
-        </div>
-
-        <div class="footer-column services">
-            <h3>Our Services</h3>
-            <ul>
-                <li>Choice Vehicle</li>
-                <li>Economical Rates</li>
-                <li>Fully Insured Cars</li>
-                <li>Driver Facility</li>
-                <li>Excellent Services</li>
-                <li>Get Free Quote</li>
-            </ul>
-        </div>
-
-        <div class="footer-column cities">
-            <h3>Rent a Car in</h3>
-            <ul>
-                <li>Islamabad</li>
-                <li>Lahore</li>
-                <li>Karachi</li>
-                <li>Faisalabad</li>
-                <li>Rawalpindi</li>
-                <li>Sialkot</li>
-            </ul>
-        </div>
-
-
-    </div>
-    <div class="footer-bottom">
-        <p>© 2025 MoveMe Rental Cars | All Rights Reserved</p>
-    </div>
-</footer>
-
-<script>
-// Filter functionality
-document.addEventListener('DOMContentLoaded', function() {
-  const filterButtons = document.querySelectorAll('.filter-btn');
-  const categorySections = document.querySelectorAll('.category-section');
-
-  filterButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      // Remove active class from all buttons
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      // Add active class to clicked button
-      this.classList.add('active');
-
-      const filterValue = this.getAttribute('data-filter');
-
-      categorySections.forEach(section => {
-        if (filterValue === 'all') {
-          section.style.display = 'block';
-        } else {
-          const category = section.getAttribute('data-category');
-          if (category === filterValue) {
-            section.style.display = 'block';
-          } else {
-            section.style.display = 'none';
-          }
-        }
-      });
-
-      // Smooth scroll to categories section
-      document.getElementById('categories').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    });
-  });
-});
-
-// Comment functionality
-let currentCommentIndex = 0;
-const comments = [];
-
-document.getElementById('commentForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-  const name = document.getElementById('commentName').value.trim();
-  const comment = document.getElementById('commentText').value.trim();
-  if (name && comment) {
-    const commentDiv = document.createElement('div');
-    commentDiv.className = 'comment';
-    commentDiv.innerHTML = `<strong>${name}:</strong> ${comment}`;
-    comments.push(commentDiv);
-    updateCommentsDisplay();
-    document.getElementById('commentName').value = '';
-    document.getElementById('commentText').value = '';
-  }
-});
-
-function updateCommentsDisplay() {
-  const commentsList = document.getElementById('commentsList');
-  commentsList.innerHTML = '';
-  if (comments.length > 0) {
-    commentsList.appendChild(comments[currentCommentIndex]);
-  }
-}
-
-
-
-// Load data on page load
-document.addEventListener('DOMContentLoaded', function() {
-});
-</script>
-
-<a href="https://wa.me/923188200250" class="whatsapp-float" target="_blank">
-  <i class="fab fa-whatsapp"></i>
-</a>
-
-<!-- Chatbot -->
-<div id="chatbot-toggle" title="Need help? Chat with us!">
-  <i class="fas fa-comments"></i>
-</div>
-<div id="chatbot-container">
-    <div id="chatbot-header">
-      <div class="header-left">
-        <i class="fas fa-robot"></i>
-        <span>Support Assistant</span>
-      </div>
-      <button id="chatbot-close">&times;</button>
-    </div>
-    <div id="chatbot-messages">
-      <div class="chatbot-message bot welcome-message">
-        <div class="message-content">Hello! 👋 Welcome to MoveMe Car Rentals.<br>How can I help you rent a car today?</div>
-      </div>
-      <div class="quick-actions">
-        <button class="quick-btn" data-action="economy">🚗 Economy</button>
-        <button class="quick-btn" data-action="standard">🚙 Standard</button>
-        <button class="quick-btn" data-action="luxury">🏎️ Luxury / SUV</button>
-        <button class="quick-btn" data-action="book">📅 Book Now</button>
-        <button class="quick-btn" data-action="availability">🔍 Check Availability</button>
-      </div>
-    </div>
-    <div id="typing-indicator" style="display: none;">
-      <span>Support Assistant is typing...</span>
-      <div class="typing-dots">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-    <div class="chat-input-area">
-      <input type="text" id="chatbot-input" placeholder="Type your message here..."/>
-      <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
-    </div>
-    <div class="chat-footer">
-      <small>Your conversation is secure.</small>
-    </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const chatbotToggle = document.getElementById('chatbot-toggle');
-  const chatbotContainer = document.getElementById('chatbot-container');
-  const chatbotClose = document.getElementById('chatbot-close');
-  const chatbotInput = document.getElementById('chatbot-input');
-  const chatbotSend = document.getElementById('chatbot-send');
-  const chatbotMessages = document.getElementById('chatbot-messages');
-  const typingIndicator = document.getElementById('typing-indicator');
-  const quickActions = document.querySelector('.quick-actions');
-
-  // Conversation state management
-  let conversationState = 'greeting'; // greeting, pricing, availability, booking, payment, confirmed
-  let selectedCar = null;
-  let selectedCategory = null;
-  let pickupDate = null;
-  let returnDate = null;
-  let customerName = null;
-  let customerContact = null;
-
-  // Toggle chatbot window with smooth animation
-  chatbotToggle.addEventListener('click', function() {
-    if (chatbotContainer.style.display === 'block') {
-      chatbotContainer.style.display = 'none';
-    } else {
-      chatbotContainer.style.display = 'block';
-      // Focus on input after opening
-      setTimeout(() => chatbotInput.focus(), 300);
-    }
-  });
-
-  // Close chatbot window
-  chatbotClose.addEventListener('click', function() {
-    chatbotContainer.style.display = 'none';
-  });
-
-  // Quick action buttons
-  document.querySelectorAll('.quick-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-      const action = this.getAttribute('data-action');
-      let message = '';
-
-      switch(action) {
-        case 'economy':
-          message = 'Tell me about economy cars';
-          break;
-        case 'standard':
-          message = 'Tell me about standard cars';
-          break;
-        case 'luxury':
-          message = 'Tell me about luxury cars';
-          break;
-        case 'book':
-          message = 'I want to book a car';
-          break;
-        case 'availability':
-          message = 'Check availability';
-          break;
-      }
-
-      if (message) {
-        addMessage('user', message);
-        quickActions.style.display = 'none'; // Hide quick actions after use
-        showTypingIndicator();
-        setTimeout(() => {
-          hideTypingIndicator();
-          const response = getBotResponse(message);
-          addMessage('bot', response);
-        }, 1500);
-      }
-    });
-  });
-
-  // Send message
-  function sendMessage() {
-    const message = chatbotInput.value.trim();
-    if (message) {
-      addMessage('user', message);
-      chatbotInput.value = '';
-      quickActions.style.display = 'none'; // Hide quick actions after first message
-      showTypingIndicator();
-      setTimeout(() => {
-        hideTypingIndicator();
-        const response = getBotResponse(message);
-        addMessage('bot', response);
-      }, 1500);
-    }
-  }
-
-  chatbotSend.addEventListener('click', sendMessage);
-  chatbotInput.addEventListener('keypress', function(e) {
-    if (e.key === 'Enter') {
-      sendMessage();
-    }
-  });
-
-  function showTypingIndicator() {
-    typingIndicator.style.display = 'flex';
-    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
-  }
-
-  function hideTypingIndicator() {
-    typingIndicator.style.display = 'none';
-  }
-
-  function addMessage(sender, message) {
-    const messageDiv = document.createElement('div');
-    messageDiv.className = `chatbot-message ${sender}`;
-    messageDiv.innerHTML = `<div class="message-content">${message}</div>`;
-    chatbotMessages.appendChild(messageDiv);
-    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
-  }
-
-  function getBotResponse(message) {
-    const lowerMessage = message.toLowerCase();
-
-    // ROLE DEFINITION: Professional AI customer-support chatbot for MoveMe Car Rentals
-    // Primary role: Assist customers politely, clearly, and accurately about car rental services
-
-    // Always greet users politely and maintain professional tone
-    // Never argue, never give false information, stay respectful
-
-    // GREETING INTENT
-    if (lowerMessage.includes('hi') || lowerMessage.includes('hello') || lowerMessage.includes('hey') ||
-        lowerMessage.includes('assalam o alaikum') || lowerMessage.includes('good morning') ||
-        lowerMessage.includes('good evening')) {
-      conversationState = 'greeting';
-      return "Hello! 👋 Welcome to MoveMe Car Rentals. How can I help you rent a car today?";
-    }
-
-    // GENERAL HELP INTENT
-    if (lowerMessage.includes('help') || lowerMessage.includes('what can you do') ||
-        lowerMessage.includes('how does this work')) {
-      return "I'm here to help with our car rental services, pricing, bookings, and support. You can ask me about cars, bookings, delivery, refunds, or contact details.";
-    }
-
-    // PRODUCT INFORMATION / CAR RENTAL SERVICES
-    if (lowerMessage.includes('products') || lowerMessage.includes('services') ||
-        lowerMessage.includes('cars') || lowerMessage.includes('available') ||
-        lowerMessage.includes('types of items')) {
-      return "We offer high-quality car rental services with Economy, Standard, and Luxury cars designed to meet your needs. Please tell me which category you are interested in, and I'll share details.";
-    }
-
-    // SPECIFIC CAR CATEGORY QUESTIONS
-    if (lowerMessage.includes('economy') || lowerMessage.includes('cheapest') ||
-        lowerMessage.includes('budget')) {
-      selectedCategory = 'economy';
-      conversationState = 'pricing';
-      return "Economy cars are designed for affordable and efficient travel. They are ideal for daily commuting, city driving, and short trips, offering good fuel efficiency and easy handling. These cars are perfect for customers who want a reliable ride at a budget-friendly price. Economy cars start from Rs. 8,000 per day. Do you want me to check availability for your dates?";
-    } else if (lowerMessage.includes('standard') || lowerMessage.includes('family') ||
-               lowerMessage.includes('comfort') || lowerMessage.includes('long trip')) {
-      selectedCategory = 'standard';
-      conversationState = 'pricing';
-      return "Standard cars offer a perfect balance of comfort, space, and affordability. They are well-suited for families, business trips, and long-distance travel, providing a smooth driving experience with added comfort compared to economy cars. Standard cars range from Rs. 12,000–15,000 per day. Do you want me to check availability for your dates?";
-    } else if (lowerMessage.includes('luxury') || lowerMessage.includes('premium') ||
-               lowerMessage.includes('suv') || lowerMessage.includes('high-end')) {
-      selectedCategory = 'luxury';
-      conversationState = 'pricing';
-      return "Luxury and SUV cars provide a premium driving experience with advanced features, powerful performance, and superior comfort. These vehicles are ideal for special occasions, long journeys, and customers who prefer style, space, and high-end quality in their ride. Luxury and SUV cars start from Rs. 25,000 per day. Do you want me to check availability for your dates?";
-    }
-
-    // PRICING INTENT / RENT QUESTIONS
-    if (lowerMessage.includes('price') || lowerMessage.includes('cost') || lowerMessage.includes('rate') ||
-        lowerMessage.includes('discount') || lowerMessage.includes('price list') ||
-        lowerMessage.includes('pricing options') || lowerMessage.includes('rent') ||
-        lowerMessage.includes('how much') || lowerMessage.includes('cost to rent') ||
-        lowerMessage.includes('rental rates') || lowerMessage.includes('daily rental') ||
-        lowerMessage.includes('per day') || lowerMessage.includes('per hour')) {
-
-      conversationState = 'pricing';
-
-      // Check for specific car models
-      if (lowerMessage.includes('toyota corolla') || lowerMessage.includes('corolla')) {
-        selectedCar = 'Toyota Corolla';
-        selectedCategory = 'economy';
-        return "A Toyota Corolla is an Economy car. Its rental starts at Rs. 8,000 per day. Do you want me to check availability for your dates?";
-      } else if (lowerMessage.includes('suv') || lowerMessage.includes('luxury') || lowerMessage.includes('premium')) {
-        selectedCategory = 'luxury';
-        return "Luxury and SUV cars start from Rs. 25,000 per day. They are perfect for long trips and premium rides. Would you like to see available models?";
-      } else if (lowerMessage.includes('standard') || lowerMessage.includes('family')) {
-        selectedCategory = 'standard';
-        return "Standard cars range from Rs. 12,000–15,000 per day, providing extra comfort for family or long trips. Do you want me to check availability for your dates?";
-      } else if (lowerMessage.includes('economy') || lowerMessage.includes('budget') || lowerMessage.includes('cheap')) {
-        selectedCategory = 'economy';
-        return "Economy cars start from Rs. 8,000 per day. They are fuel-efficient and perfect for city travel. Do you want me to check availability for your dates?";
-      }
-
-      // General pricing inquiry
-      if (lowerMessage.includes('rent per day') || lowerMessage.includes('daily rental') ||
-          lowerMessage.includes('per day') || lowerMessage.includes('how much per day')) {
-        return "Rental prices depend on the car type: Economy from Rs. 8,000/day, Standard from Rs. 12,000/day, and Luxury / SUV from Rs. 25,000/day. Which type are you interested in?";
-      }
-
-      // Ask for car category if not specified
-      return "Could you please tell me which car or car category you're interested in? Economy, Standard, or Luxury / SUV?";
-    }
-
-    // AVAILABILITY CHECK - Handle dates and availability
-    if (conversationState === 'pricing' && (lowerMessage.includes('yes') || lowerMessage.includes('check availability') ||
-        lowerMessage.includes('dates') || lowerMessage.includes('available'))) {
-      conversationState = 'availability';
-      return "Great! When do you want to pick up the car and when will you return it? Please provide dates in DD/MM/YYYY format.";
-    }
-
-    // Handle date input
-    if (conversationState === 'availability' && (lowerMessage.includes('/') || lowerMessage.includes('-') ||
-        lowerMessage.includes('pickup') || lowerMessage.includes('return'))) {
-      // Simple date parsing - in real implementation, use proper date validation
-      const datePattern = /(\d{1,2}[\/\-]\d{1,2}[\/\-]\d{4})/g;
-      const dates = lowerMessage.match(datePattern);
-      if (dates && dates.length >= 2) {
-        pickupDate = dates[0];
-        returnDate = dates[1];
-        conversationState = 'booking';
-        // Simulate availability check
-        const isAvailable = Math.random() > 0.2; // 80% availability
-        if (isAvailable) {
-          const days = Math.ceil((new Date(returnDate.split('/').reverse().join('-')) - new Date(pickupDate.split('/').reverse().join('-'))) / (1000 * 60 * 60 * 24));
-          const pricePerDay = selectedCategory === 'economy' ? 8000 : selectedCategory === 'standard' ? 12000 : 25000;
-          const totalPrice = days * pricePerDay;
-          return `✅ Great! ${selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)} car is available from ${pickupDate} to ${returnDate}. Total price: Rs. ${totalPrice.toLocaleString()}. Shall we proceed with booking?`;
-        } else {
-          return "Sorry, the car is not available on your selected dates. You can choose another car from the same category or pick different dates. Would you like me to show options?";
-        }
-      } else {
-        return "Please provide pickup and return dates in DD/MM/YYYY format, e.g., '15/12/2024 to 18/12/2024'.";
-      }
-    }
-
-    // BOOKING CONFIRMATION
-    if (conversationState === 'booking' && (lowerMessage.includes('yes') || lowerMessage.includes('proceed') ||
-        lowerMessage.includes('book'))) {
-      conversationState = 'payment';
-      return "You are booking a " + selectedCategory + " car from " + pickupDate + " to " + returnDate + ". Please provide your full name and contact number to confirm the booking.";
-    }
-
-    // Handle customer details
-    if (conversationState === 'payment' && (lowerMessage.includes('name') || lowerMessage.includes('contact') ||
-        message.length > 5)) { // Simple check for name/contact input
-      customerName = message.split(' ').slice(0, 2).join(' '); // Extract name
-      customerContact = message.match(/\d{10,11}/) ? message.match(/\d{10,11}/)[0] : null; // Extract phone
-      if (customerName && customerContact) {
-        conversationState = 'confirmed';
-        return "Thank you! You can pay via card, bank transfer, or cash on pickup. Click the 'Pay Now' button to complete your booking or visit our website.";
-      } else {
-        return "Please provide your full name and contact number, e.g., 'John Doe 03123456789'.";
-      }
-    }
-
-    // BOOKING CONFIRMED
-    if (conversationState === 'confirmed' && (lowerMessage.includes('paid') || lowerMessage.includes('done') ||
-        lowerMessage.includes('confirmed'))) {
-      conversationState = 'greeting'; // Reset for new conversation
-      return "✅ Your booking is confirmed! Pick up your " + selectedCategory + " car at our main office on " + pickupDate + ". Thank you for renting with us! Have a safe journey 😊";
-    }
-
-    // ORDER PROCESS / BOOKING (General)
-    if (lowerMessage.includes('order') || lowerMessage.includes('book') || lowerMessage.includes('booking') ||
-        lowerMessage.includes('buy') || lowerMessage.includes('payment methods')) {
-      return "You can place a booking directly through our website. We accept cash, card, and online payments. Let me know if you need help with booking.";
-    }
-
-    // DELIVERY / SHIPPING / PICKUP
-    if (lowerMessage.includes('delivery') || lowerMessage.includes('shipping') ||
-        lowerMessage.includes('pickup') || lowerMessage.includes('drop') ||
-        lowerMessage.includes('when will i receive') || lowerMessage.includes('nationwide') ||
-        lowerMessage.includes('delivery options')) {
-      return "Delivery usually takes 3–5 business days, depending on your location. We offer free airport pickup and drop-off service!";
-    }
-
-    // RETURN & REFUND POLICY / CANCELLATION
-    if (lowerMessage.includes('return') || lowerMessage.includes('refund') ||
-        lowerMessage.includes('policy') || lowerMessage.includes('cancel')) {
-      return "You can request a cancellation within 24 hours for a full refund. Refunds are processed within 5-7 working days after approval.";
-    }
-
-    // ACCOUNT / LOGIN
-    if (lowerMessage.includes('password') || lowerMessage.includes('login') ||
-        lowerMessage.includes('account') || lowerMessage.includes('create account')) {
-      return "Click on 'Forgot Password' to reset your login. Creating an account is easy—just sign up with your email on our website.";
-    }
-
-    // CONTACT & SUPPORT
-    if (lowerMessage.includes('contact') || lowerMessage.includes('support') ||
-        lowerMessage.includes('number') || lowerMessage.includes('email') ||
-        lowerMessage.includes('office location') || lowerMessage.includes('contact support')) {
-      return "You can contact our support team via phone at 03188200250 or email at m.umairbsse@gmail.com. Would you like the contact details?";
-    }
-
-    // BUSINESS HOURS
-    if (lowerMessage.includes('working hours') || lowerMessage.includes('open') ||
-        lowerMessage.includes('timing') || lowerMessage.includes('weekend')) {
-      return "We are open Monday to Saturday, 9 AM – 6 PM. Sunday is closed.";
-    }
-
-    // TRUST & SECURITY
-    if (lowerMessage.includes('safe') || lowerMessage.includes('secure') ||
-        lowerMessage.includes('trust') || lowerMessage.includes('payment secure')) {
-      return "Yes, your data and payments are fully secure. We use encrypted and trusted payment gateways.";
-    }
-
-    // COMPLAINTS
-    if (lowerMessage.includes('complaint') || lowerMessage.includes('bad service') ||
-        lowerMessage.includes('not satisfied')) {
-      return "We're sorry for the inconvenience. Please share details so we can assist. Your feedback is important to us.";
-    }
-
-    // TRACKING ORDERS
-    if (lowerMessage.includes('track') || lowerMessage.includes('tracking') ||
-        lowerMessage.includes('order status') || lowerMessage.includes('track my order')) {
-      return "You can track your order by logging into your account on our website. If you don't have an account, please contact support with your booking reference number.";
-    }
-
-    // IRRELEVANT / OFF-TOPIC QUESTIONS (VERY IMPORTANT)
-    if (lowerMessage.includes('match') || lowerMessage.includes('joke') ||
-        lowerMessage.includes('human') || lowerMessage.includes('movie') ||
-        lowerMessage.includes('exam') || lowerMessage.includes('random') ||
-        lowerMessage.includes('politics') || lowerMessage.includes('entertainment') ||
-        lowerMessage.includes('personal')) {
-      return "I'm here to help with our car rental services only 😊. Please ask something related to our business or support.";
-    }
-
-    // ABUSIVE / RUDE INPUT
-    if (lowerMessage.includes('useless') || lowerMessage.includes('bad bot') ||
-        lowerMessage.includes('stupid') || lowerMessage.includes('idiot') ||
-        lowerMessage.includes('dumb')) {
-      return "I'm here to help. Let's keep the conversation respectful. Please tell me how I can assist you.";
-    }
-
-    // GOODBYE
-    if (lowerMessage.includes('bye') || lowerMessage.includes('thanks') ||
-        lowerMessage.includes('thank you') || lowerMessage.includes('see you') ||
-        lowerMessage.includes('allah hafiz')) {
-      conversationState = 'greeting'; // Reset state
-      return "Thank you for contacting us! 😊 Have a great day.";
-    }
-
-    // CAR RENTAL SPECIFIC QUESTIONS
-    if (lowerMessage.includes('document') || lowerMessage.includes('license')) {
-      return "You'll need a valid driver's license, national ID card, and proof of address. International customers may need a passport and visa.";
-    } else if (lowerMessage.includes('age') || lowerMessage.includes('old')) {
-      return "Drivers must be at least 21 years old. Additional fees may apply for drivers under 25.";
-    } else if (lowerMessage.includes('insurance') || lowerMessage.includes('covered')) {
-      return "All our cars come with basic insurance coverage. Additional coverage options are available for extra peace of mind.";
-    } else if (lowerMessage.includes('location') || lowerMessage.includes('where')) {
-      return "We're located in Islamabad, Pakistan, and serve major cities including Lahore, Karachi, Faisalabad, Rawalpindi, and Sialkot.";
-    }
-
-    // UNKNOWN QUESTIONS
-    return "I'm not sure about that yet, but I can help you with our car rental services or connect you to support.";
-  }
-});
-</script>
-
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
